@@ -1,0 +1,25 @@
+
+  .single-ballimg{
+    width: 250px;
+  }
+
+  .single-card{
+    padding-inline: 150px;
+  }
+
+  .card-content{
+    display: flex;
+    align-items: start;
+   
+  }
+
+
+    /******* Responsive design ***********/
+
+    @media (max-width: 768px) {
+      .single-card{
+        width: 100vw;
+        padding-inline: 50px;
+      }
+
+    }

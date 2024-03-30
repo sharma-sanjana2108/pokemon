@@ -1,0 +1,42 @@
+.read-more {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 32px;
+    transition: .3s;
+  }
+  
+  .read-more:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
+  
+
+
+  /* ***** */
+
+  .pokemon-card{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 50px;
+  }
+
+  .card-body{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+  }
+
+  .ball-img{
+    width:80px;
+  }
+
+  .description{
+    font-size: 12px;
+  }

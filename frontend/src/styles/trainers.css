@@ -1,0 +1,59 @@
+.trainer-container{
+    margin-block: 50px;
+}
+
+.trainer-container h1{
+    text-align: center;
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+
+.trainer-section{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trainer-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+#trainer-img{
+    width: 250px;
+}
+
+
+
+.trainer-content{
+    width: 50%;
+}
+
+.trainer-para{
+    font-size: 18px;
+}
+
+
+  /******* Responsive design ***********/
+
+  @media (max-width: 768px) {
+
+    .trainer-section{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .trainer-content{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+  }

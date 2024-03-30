@@ -1,0 +1,26 @@
+.about-container{
+    padding: 40px;
+    margin-top: 50px;
+    margin-inline: 50px;
+}
+
+.about-content{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* *********Responsive Design********** */
+
+@media (max-width:550px) {
+
+
+    .about-container{
+        margin-inline: 20px;
+    }
+
+    .about-content{
+        font-size: 18px;
+    }
+   
+}

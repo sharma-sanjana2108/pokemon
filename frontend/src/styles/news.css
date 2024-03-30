@@ -1,0 +1,12 @@
+.news-img{
+    width: 300px;
+   
+}
+
+.news-card{
+    width: 300px;
+}
+
+.news-card:hover{
+    background-color: rgb(240, 240, 240);
+}
